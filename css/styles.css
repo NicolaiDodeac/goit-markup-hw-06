@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style: none;
+    }
+
+.slogan {
+    background-color: #2E2F42;
+
+}
+
+.slogan-button {
+    font-family: inherit;
+    background-color: #4D5AE5;
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.slogan-button:hover, 
+.slogan-button:focus,
+.slogan-button:active {
+    background-color: #404BBF;
+        color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: Bold;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
+
+h2 {
+    font-weight: Bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+    color: #2e2f42;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.header-logo{
+font-family: "Raleway", sans-serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+color: #4D5AE5;
+text-decoration: none;  
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.header-studio {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+        color: #4D5AE5;
+        text-decoration: none;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.footer-studio {
+    color: #f4f4fd;
+}
+.footer-content {
+    background-color: #2E2F42;
+
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
+.link {
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link {
+color: #434455
+}
+   
+
+.link:hover,
+.link:focus {
+    color: #404BBF;
+}
+.contacts {
+    font-style: normal;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-member {
+    background-color: #FFFFFF;
+}
