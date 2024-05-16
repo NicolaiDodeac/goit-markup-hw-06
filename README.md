@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-CSS stage of my first project
+# goit-markup-hw-03
+me mastering flexbox on my first project.
