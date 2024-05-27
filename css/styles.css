@@ -346,10 +346,13 @@ margin-bottom: 8px;
     
     }
 
-.social-circle:hover,
-.social-circle:active {
+.social-circle:hover {
 background-color: #404bbf;
-                }
+}
+
+.social-circle:active {
+    background-color: #404bbf;
+}
 
 .social-links {
     fill: #F4F4FD;
