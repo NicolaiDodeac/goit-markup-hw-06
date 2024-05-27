@@ -401,6 +401,7 @@ transition-property: box-shadow;
 
 .portfolio-list-item:hover {
     transform: translateY(0%);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-example {}
@@ -533,10 +534,11 @@ color: #FFF;
 
 }
 
-.social-circle-footer:hover,
+.social-circle-footer:hover{
+    background-color: #31d0aa;
+}
 .social-circle-footer:active {
-    background-color:#31d0aa;
-    
+    background-color:#31d0aa; 
 }
  
 
