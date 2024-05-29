@@ -421,10 +421,6 @@ transition-property: box-shadow;
     margin-bottom: 8px;
 }
 
-.portfolio-text {
-    margin-bottom: 32px;
-}
-
 .portfolio-img-wraper {
     position: relative;
     overflow: hidden;
