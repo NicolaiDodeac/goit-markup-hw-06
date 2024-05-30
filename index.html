@@ -376,18 +376,27 @@
             </a></li>
         </ul>
       </div>
+      <div class="subscribe">
+        <label class="subscribelabel" for="usersubscribe">Subscribe</label>
+        <div class="fieldbtn">
+          <input class="subscribefield" id="usersubscribe" placeholder="E-mail" type="email">
+          <button class="subscribebtn" type="submit">Subscribe <span><svg class="plane" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg></span></button>
+        </div>
+      </div>
     </div>
   </footer>
   <!-- #endregion footer -->
 
   <!-- #region modal -->
-  <div class="modal-overlay">
+  <div class="modal-overlay is-open">
     <div class="modal">
       <button class="modal-btn-close" type="button"><svg class="modal-icon-close" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg></button>
       <p class="modal-title">Leave your contacts and we will call you back</p>
-      <form name="callback">
+      <form class="fields" name="callback">
         <div class="input-wrapper">
           <label class="input-label" for="username">Name</label>
           <div class="input-space">
@@ -411,7 +420,7 @@
           <div class="input-space">
             <input class="input-field" id="usermail" type="email">
             <svg class="input-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-email-black"></use>
+              <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
         </div>
@@ -420,7 +429,16 @@
           <textarea class="commenttext" name="comment" id="usercomment" placeholder="Text input"></textarea>
           </label>
         </div>
-        <button type="submit" class="formbtn">Send</button>
+        <div class="checkboxsubmit">
+          <input class="visually-hidden checkbox" type="checkbox" name="checkboxuser" id="checkboxuser" /><label
+            class="checkboxuser" for="checkboxuser"><span class="privacy-checkbox">
+              <svg width="10" height="8">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg></span><span class="checkboxtext">I accept the terms and conditions of the <a href="#"
+                class="policy">Privacy Policy</a></span>
+          </label>
+          <button type="submit" class="formbtn">Send</button>
+        </div>
       </form>
     </div>
   </div>
