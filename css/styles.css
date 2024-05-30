@@ -606,4 +606,76 @@ text-align: center;
 font-style: normal;
 font-weight: 500;
 letter-spacing: 0.32px;
+margin-bottom: 16px;
 }
+
+input {
+    display: block;
+}
+
+.input-wrapper {
+    margin-bottom: 18px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 4px;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+}
+
+.input-space {
+   position: relative;
+
+}
+
+.input-field {
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    padding: 11px 11px 11px 38px;
+    color: #2e2f42;
+}
+
+.input-icon {
+position: absolute;
+top: 50%;
+left: 16px;
+transform: translateY(-50%);
+fill: #2e2f42;
+}
+
+.comment-wrapper: {
+
+
+}
+
+.commenttext {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    resize: none;
+    width: 100%;
+    min-height: 120px;
+    resize: none;
+    padding-left: 16px;
+    padding-top: 8px;
+    outline: none;
+    background-color: transparent;
+    color: #2e2f42;
+    
+}
+.commenttext::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+}
+
+.formbtn {}
