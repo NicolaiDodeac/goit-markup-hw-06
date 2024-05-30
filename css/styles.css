@@ -646,12 +646,7 @@ color: #8e8f99;
 
 
 }
-/* .input-space:active,
-.input-space:hover {
-border: 1px solid #4d5ae5;
-fill: #4d5ae5;
-border-radius: 4px;
-} */
+
 .input-field {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border, fill, border-radius;
