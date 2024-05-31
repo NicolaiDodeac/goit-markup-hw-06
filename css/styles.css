@@ -762,17 +762,19 @@ fill: #2e2f42;
         color: #fff;
         border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 16px;
         background-color: #4d5ae5;
+        cursor:pointer;
+        border: none;
 }
 
-.fieldbtn {
-    display:inline-flex;
+.subscribelabel {
+    display:flex;
     justify-content: center;
     align-items: center;
     gap:24px;
@@ -790,10 +792,10 @@ padding-left: 16px;
 padding-top: 8px;
 padding-bottom: 8px;
 font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
 }
 
 .subscribefield::placeholder {
@@ -804,7 +806,7 @@ font-weight: 500;
         color: #fff;
 }
 
-.subscribelabel {
+.subscribetext {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -814,4 +816,5 @@ font-weight: 500;
 
 .plane {
     fill: #fff;
+    margin-left: 16px;
 }
