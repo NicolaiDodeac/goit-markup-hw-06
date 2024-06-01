@@ -867,11 +867,14 @@ color: #fff;
 
 .plane {
     fill: #fff;
-    margin-left: 16px;
+    /* margin-left: 16px; */
+
 }
 .subscribeform {
     display: flex;
     gap: 24px;
     justify-content: center;
         align-items: center;
+        /* width: 264px;
+        height: 40px; */
 }
