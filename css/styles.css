@@ -481,17 +481,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     display: flex;
     padding: 100px 0;
     background-color: #2E2F42;
-    /* align-content: center;
+    align-content: center;
         justify-content: center;
-        align-items: baseline; */
+        align-items: baseline;
     
 
 }
 
 .footer-content .container {
     display: flex;
-    /* flex-direction: column; */
-    gap: 120px;
     align-items: baseline;
 }
 
@@ -535,6 +533,10 @@ color: #FFF;
 .social-circle-footer:focus,
 .social-circle-footer:active {
     background-color: #31d0aa;
+}
+
+.footer-socials {
+    margin-right: 80px;
 }
 
 .footer-social-list {
