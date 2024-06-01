@@ -24,7 +24,10 @@
     <div class="container">
       <nav class="navigation">
         <a href="./index.html" class="header-logo">Web<span class="header-studio">Studio</span></a>
-
+        <button class="menu-btn" type="button" area-label="mobile menu button"><svg class="menu-btn-icon" width="24"
+            height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg></button>
         <ul class="nav-list">
           <li>
             <a class="link current" href="./index.html">Studio</a>
@@ -52,7 +55,7 @@
   <!-- #endregion header-->
   <main>
     <!-- #region hero  -->
-    <section class="hero">
+    <section class="hero hide">
       <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button">Order Service</button>
@@ -61,7 +64,7 @@
     <!-- #endregion hero-->
 
     <!-- #region features-->
-    <section class="features">
+    <section class="features hide">
       <div class="container">
         <h2 class="visually-hidden">Our Strengths</h2>
         <ul class="features-list">
@@ -122,7 +125,7 @@
     <!-- #endregion features-->
 
     <!-- #region team-->
-    <section class="team">
+    <section class="team hide">
       <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -252,7 +255,7 @@
     <!-- #endregion team-->
 
     <!-- #region portfolio -->
-    <section class="portfolio">
+    <section class="portfolio hide">
       <div class="container">
         <h2 class="portfolio-section-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -342,7 +345,7 @@
     <!-- #endregion portfolio -->
   </main>
   <!-- #region footer -->
-  <footer class="footer-content">
+  <footer class="footer-content hide">
     <div class="container">
       <div class="logotext">
         <a href="./index.html" class="footer-logo">Web<span class="footer-studio">Studio</span></a>
@@ -391,7 +394,8 @@
   <!-- #endregion footer -->
 
   <!-- #region modal -->
-  <div class="modal-overlay is-open">
+  <!-- <div class="modal-overlay is-open"> -->
+  <div class="modal-overlay hide">
     <div class="modal">
       <button class="modal-btn-close" type="button"><svg class="modal-icon-close" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
@@ -443,6 +447,55 @@
     </div>
   </div>
   <!-- #endregion modal -->
+  <!-- region mobile menu -->
+  <div class="menu-container">
+    <button class="menu-btn-close" type="button" area-label="mobile menu close button"><svg class="menu-close-icon"
+        width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black"></use>
+      </svg></button>
+    <ul class="menu-list">
+      <li class="menu-list-item">
+        <a class="menu-list-link link active" href="./index.html">Studio</a>
+      </li>
+      <li class="menu-list-item">
+        <a class="menu-list-link link" href="">Portfolio</a>
+      </li>
+      <li class="menu-list-item">
+        <a class="menu-list-link link" href="">Contacts</a>
+      </li>
+    </ul>
+    <ul class="menu-address-list link">
+      <li class="menu-address-item">
+        <a href="tel:+110001111111" class="link blue">+11 (000) 111-11-11</a>
+      </li>
+      <li class="menu-address-item">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+      </li>
+    </ul>
+    <ul class="mobile-socials">
+      <li class="social-link-item"><a href="https://www.instagram.com/" class="social-circle">
+          <svg class="social-links" width="24" height="24">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a></li>
+      <li class="social-link-item"><a href="https://x.com/" class="social-circle">
+          <svg class="social-links" width="24" height="24">
+            <use href="./images/icons.svg#icon-twitter"></use>
+          </svg>
+        </a></li>
+      <li class="social-link-item"><a href="https://www.facebook.com/" class="social-circle">
+          <svg class="social-links" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a></li>
+      <li class="social-link-item"><a href="https://www.linkedin.com/" class="social-circle">
+          <svg class="social-links" width="24" height="24">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </a></li>
+    </ul>
+  </div>
+  <!-- #endregion mobile menu -->
 </body>
 
 </html>
