@@ -125,12 +125,15 @@
     <!-- #endregion features-->
 
     <!-- #region team-->
-    <section class="team hide">
+    <section class="team">
       <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-list-item">
-            <img src="./images/img-3.jpg" alt="photo Mark Guerrero" width="264" />
+            <img srcset="
+            ./images/img-3.jpg 1x,
+            ./images/img3@2x_result.jpg 2x" src="./images/img-3.jpg" alt="photo Mark Guerrero" width="264"
+              loading="lazy" />
             <div class="team-block">
               <h3 class="team-subtile">Mark Guerrero</h3>
               <p class="team-text">Product Designer</p>
@@ -160,7 +163,9 @@
           </li>
 
           <li class="team-list-item">
-            <img src="./images/img-2.jpg" alt="photo Tom Ford" width="264" />
+            <img srcset="
+            ./images/img-2.jpg 1x,
+            ./images/img2@2x_result.jpg 2x" src="./images/img-2.jpg" alt="photo Tom Ford" width="264" loading="lazy" />
             <div class="team-block">
               <h3 class="team-subtile">Tom Ford</h3>
               <p class="team-text">Frontend Developer</p>
@@ -190,7 +195,10 @@
           </li>
 
           <li class="team-list-item">
-            <img src="./images/img-1.jpg" alt="photo Camila Garcia" width="264" />
+            <img srcset="
+            ./images/img-1.jpg 1x,
+            ./images/img1@2x_result.jpg 2x" src="./images/img-1.jpg" alt="photo Camila Garcia" width="264"
+              loading="lazy" />
             <div class="team-block">
               <h3 class="team-subtile">Camila Garcia</h3>
               <p class="team-text">Marketing</p>
@@ -221,7 +229,10 @@
           </li>
 
           <li class="team-list-item">
-            <img src="./images/img.jpg" alt="photo Daniel Wilson" width="264" />
+            <img srcset="
+            ./images/img.jpg 1x,
+            ./images/img@2x_result.jpg 2x" src="./images/img.jpg" alt="photo Daniel Wilson" width="264"
+              loading="lazy" />
             <div class="team-block">
               <h3 class="team-subtile">Daniel Wilson</h3>
               <p class="team-text">UI Designer</p>
@@ -255,13 +266,18 @@
     <!-- #endregion team-->
 
     <!-- #region portfolio -->
-    <section class="portfolio hide">
+    <section class="portfolio">
       <div class="container">
         <h2 class="portfolio-section-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <img class="portfolio-example" src="./images/portfimg-1.jpg" alt="banking app example" width="360" />
+              <picture>
+                <source media="(max-width:767 )" srcset="./images/imgmobapp1@1x.jpg 1x, 
+                ./images/imgmobapp1@2x.jpg 2x" type="image/jpg">
+                <img class="portfolio-example" src="./images/portfimg-1.jpg" alt="banking app example" width="360"
+                  loading="lazy" />
+              </picture>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -274,7 +290,12 @@
 
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <img class="portfolio-example" src="./images/portfimg-2.jpg" alt="Cashless Payment picture" width="360" />
+              <picture>
+                <source media="(max-width:767)" srcset="./images/imgmobapp2@1x.jpg 1x, 
+                ./images/imgmobapp2@2x.jpg 2x" type="image/jpg">
+                <img class="portfolio-example" src="./images/portfimg-2.jpg" alt="terminal app example" width="360"
+                  loading="lazy" />
+              </picture>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -287,8 +308,12 @@
 
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <img class="portfolio-example" src="./images/portfimg-3.jpg" alt="Phone and computer picture"
-                width="360" />
+              <picture>
+                <source media="(max-width:767)" srcset="./images/imgmobapp3@1x.jpg 1x, 
+                                ./images/imgmobapp3@2x.jpg 2x" type="image/jpg">
+                <img class="portfolio-example" src="./images/portfimg-3.jpg" alt="banking app example" width="360"
+                  loading="lazy" />
+              </picture>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -301,8 +326,12 @@
 
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <img class="portfolio-example" src="./images/portfimg-4.jpg" alt="Hand on stearingweel picture"
-                width="360" />
+              <picture>
+                <source media="(max-width:767 )" srcset="./images/imgmobapp4@1x.jpg 1x, 
+                ./images/imgmobapp4@2x.jpg 2x" type="image/jpg">
+                <img class="portfolio-example" src="./images/portfimg-4.jpg" alt="banking app example" width="360"
+                  loading="lazy" />
+              </picture>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -315,11 +344,14 @@
 
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <img class="portfolio-example" src="./images/portfimg-5.jpg" alt="Phone screens illustrations"
-                width="360" />
-              <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                App · Exotic Fruit Ecommerce App ·
-                Cloud Storage App</p>
+              <picture>
+                <source media="(max-width:767 )" srcset="./images/imgmobapp5@1x.jpg 1x, 
+                ./images/imgmobapp5@2x.jpg 2x" type="image/jpg">
+                <img class="portfolio-example" src="./images/portfimg-5.jpg" alt="background app example" width="360"
+                  loading="lazy" />
+                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
+                  App · Exotic Fruit Ecommerce App ·
+                  Cloud Storage App</p>
             </div>
             <div class="portfolio-card">
               <h3 class="portfolio-section-subtitle">Screen Illustrations</h3>
@@ -329,7 +361,11 @@
 
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <img class="portfolio-example" src="./images/portfimg-6.jpg" alt="Happy girl picture" width="360" />
+              <source media="(max-width:767 )" srcset="./images/imgmobapp6@1x.jpg 1x,
+              ./images/imgmobapp6@2x.jpg 2x" type="image/jpg">
+              <img class="portfolio-example" src="./images/portfimg-6.jpg" alt="wallpaper app example" width="360"
+                loading="lazy" />
+              </picture>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
