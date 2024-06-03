@@ -609,7 +609,8 @@ margin-bottom: 8px;
 
 @media only screen and (min-width: 768px) {
   .team-list {
-    gap: 24px;
+    row-gap: 64px;
+    column-gap: 24px;
   }
 }
 
@@ -1073,7 +1074,8 @@ transition-property: opacity, visibility;
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 288px;
+    width: 100%;
+    max-width: 408px;
     min-height: 623px;
     transform: translate(-50%, -50%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
