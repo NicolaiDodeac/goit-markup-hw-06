@@ -38,7 +38,6 @@ p {
 }
 
 .link {
-    display: block;
     color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
@@ -101,6 +100,7 @@ h3 {
 }
 
 .nav-list .link {
+    display: block;
     padding: 24px 0;
     position: relative;
 }
@@ -1082,14 +1082,22 @@ transition-property: opacity, visibility;
     position: absolute;
     left: 50%;
     top: 50%;
-    max-width: 408px;
-    min-height: 584px;
+    width: 288px;
+    min-height: 623px;
     transform: translate(-50%, -50%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
     border-radius: 4px;
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 16px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
 }
 
 .modal-btn-close {
@@ -1314,6 +1322,10 @@ margin-bottom: 24px;
 /* #endregion modal window */
 
 /* #region mobile menu btn*/
+/* .menu-container {
+    min-width:320px
+} */
+
 .menu-btn {
     border: none;
     background-color: transparent;
