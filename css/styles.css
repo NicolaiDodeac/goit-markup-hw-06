@@ -253,6 +253,8 @@ text-transform: uppercase;
 /* #region mobile menu */
 .menu-container {
     position: fixed;
+    width:100%;
+    max-width: 500px;
     inset: 0;
     display: flex;
     flex-direction: column;
@@ -455,7 +457,7 @@ max-width: 496px;
 padding: 96px 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1158px) {
   .features {
     padding: 120px 0;
   }
@@ -1317,7 +1319,7 @@ margin-bottom: 24px;
 
 /* #region mobile menu btn*/
 /* .menu-container {
-    min-width:320px
+    max-width:320px
 } */
 
 .menu-btn {
