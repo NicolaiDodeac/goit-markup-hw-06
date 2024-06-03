@@ -52,7 +52,7 @@ p {
     margin-right: auto;
     padding-left: 4px;
     padding-right: 4px;
-    outline: solid red;
+    /* outline: solid red; */
 }
 
 @media only screen and (min-width: 768px) {
