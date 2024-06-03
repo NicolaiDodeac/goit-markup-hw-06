@@ -24,8 +24,7 @@
     <div class="container">
       <nav class="navigation">
         <a href="./index.html" class="header-logo">Web<span class="header-studio">Studio</span></a>
-        <button class="menu-btn" type="button" area-label="mobile menu button"><svg class="menu-btn-icon" width="24"
-            height="24">
+        <button class="menu-btn" type="button"><svg class="menu-btn-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg></button>
         <ul class="nav-list">
@@ -64,7 +63,7 @@
     <!-- #endregion hero-->
 
     <!-- #region features-->
-    <section class="features hide">
+    <section class="features">
       <div class="container">
         <h2 class="visually-hidden">Our Strengths</h2>
         <ul class="features-list">
@@ -273,7 +272,7 @@
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
               <picture>
-                <source media="(max-width:767 )" srcset="./images/imgmobapp1@1x.jpg 1x, 
+                <source media="(max-width:767px)" srcset="./images/imgmobapp1@1x.jpg 1x, 
                 ./images/imgmobapp1@2x.jpg 2x" type="image/jpg">
                 <img class="portfolio-example" src="./images/portfimg-1.jpg" alt="banking app example" width="360"
                   loading="lazy" />
@@ -291,7 +290,7 @@
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
               <picture>
-                <source media="(max-width:767)" srcset="./images/imgmobapp2@1x.jpg 1x, 
+                <source media="(max-width:767px)" srcset="./images/imgmobapp2@1x.jpg 1x, 
                 ./images/imgmobapp2@2x.jpg 2x" type="image/jpg">
                 <img class="portfolio-example" src="./images/portfimg-2.jpg" alt="terminal app example" width="360"
                   loading="lazy" />
@@ -309,7 +308,7 @@
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
               <picture>
-                <source media="(max-width:767)" srcset="./images/imgmobapp3@1x.jpg 1x, 
+                <source media="(max-width:767px)" srcset="./images/imgmobapp3@1x.jpg 1x, 
                                 ./images/imgmobapp3@2x.jpg 2x" type="image/jpg">
                 <img class="portfolio-example" src="./images/portfimg-3.jpg" alt="banking app example" width="360"
                   loading="lazy" />
@@ -327,7 +326,7 @@
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
               <picture>
-                <source media="(max-width:767 )" srcset="./images/imgmobapp4@1x.jpg 1x, 
+                <source media="(max-width:767px)" srcset="./images/imgmobapp4@1x.jpg 1x, 
                 ./images/imgmobapp4@2x.jpg 2x" type="image/jpg">
                 <img class="portfolio-example" src="./images/portfimg-4.jpg" alt="banking app example" width="360"
                   loading="lazy" />
@@ -345,13 +344,14 @@
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
               <picture>
-                <source media="(max-width:767 )" srcset="./images/imgmobapp5@1x.jpg 1x, 
+                <source media="(max-width:767px)" srcset="./images/imgmobapp5@1x.jpg 1x, 
                 ./images/imgmobapp5@2x.jpg 2x" type="image/jpg">
                 <img class="portfolio-example" src="./images/portfimg-5.jpg" alt="background app example" width="360"
                   loading="lazy" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
+              </picture>
+              <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
+                App · Exotic Fruit Ecommerce App ·
+                Cloud Storage App</p>
             </div>
             <div class="portfolio-card">
               <h3 class="portfolio-section-subtitle">Screen Illustrations</h3>
@@ -361,10 +361,11 @@
 
           <li class="portfolio-list-item">
             <div class="portfolio-img-wraper">
-              <source media="(max-width:767 )" srcset="./images/imgmobapp6@1x.jpg 1x,
+              <picture>
+                <source media="(max-width:767px)" srcset="./images/imgmobapp6@1x.jpg 1x,
               ./images/imgmobapp6@2x.jpg 2x" type="image/jpg">
-              <img class="portfolio-example" src="./images/portfimg-6.jpg" alt="wallpaper app example" width="360"
-                loading="lazy" />
+                <img class="portfolio-example" src="./images/portfimg-6.jpg" alt="wallpaper app example" width="360"
+                  loading="lazy" />
               </picture>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
@@ -381,7 +382,7 @@
     <!-- #endregion portfolio -->
   </main>
   <!-- #region footer -->
-  <footer class="footer-content hide">
+  <footer class="footer-content">
     <div class="container">
       <div class="logotext">
         <a href="./index.html" class="footer-logo">Web<span class="footer-studio">Studio</span></a>
@@ -420,7 +421,8 @@
         <form class="subscribeform"><label class="subscribelabel" for="usersubscribe">
             <input class="subscribefield" name="usersubscribe" id="usersubscribe" placeholder="E-mail"
               type="email"></label>
-          <button class="subscribebtn" type="submit">Subscribe <svg class="plane" width="24" height="24">
+          <button class="subscribebtn" type="submit">Subscribe
+            <svg class="plane" width="24" height="24">
               <use href="./images/icons.svg#icon-plane"></use>
             </svg></button>
         </form>
@@ -431,7 +433,7 @@
 
   <!-- #region modal -->
   <!-- <div class="modal-overlay is-open"> -->
-  <div class="modal-overlay hide">
+  <div class="modal-overlay">
     <div class="modal">
       <button class="modal-btn-close" type="button"><svg class="modal-icon-close" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
@@ -460,7 +462,7 @@
         <div class="input-wrapper">
           <label class="input-label" for="user-mail">Email</label>
           <div class="input-space">
-            <input class="input-field" id="user-mail" name="user-mail" type="email" required="@">
+            <input class="input-field" id="user-mail" name="user-mail" type="email" required>
             <svg class="input-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
@@ -483,10 +485,9 @@
     </div>
   </div>
   <!-- #endregion modal -->
-  <!-- region mobile menu -->
+  <!-- #region mobile menu -->
   <div class="menu-container isopen">
-    <button class="menu-btn-close" type="button" area-label="mobile menu close button"><svg class="menu-close-icon"
-        width="8" height="8">
+    <button class="menu-btn-close" type="button"><svg class="menu-close-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-close-black"></use>
       </svg></button>
     <ul class="menu-list">
